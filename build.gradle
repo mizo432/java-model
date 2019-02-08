@@ -149,3 +149,7 @@ gitRelease {
     artifactId = "java-model"
     repoUri = "https://github.com/mizo432/maven-repository.git"
 }
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '5.2'
+}
