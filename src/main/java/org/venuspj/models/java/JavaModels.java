@@ -1,4 +1,4 @@
-package org.venuspj.models.java
+package org.venuspj.models.java;
 
 public interface ClassModel {
 
