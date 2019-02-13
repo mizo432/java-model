@@ -1,5 +1,5 @@
 package org.venuspj.models.java;
 
-public interface ClassModel {
+interface ClassModel {
 
 }
