@@ -1,7 +1,16 @@
 package org.venuspj.models.fundamentals;
 
+import java.util.Objects;
+
 public class Comment {
   private String value;
+
+  /**
+   * デフォルトコンストラクター
+   */
+  public Comment() {
+
+  }
 
   /**
    * コンストラクター.
@@ -28,6 +37,10 @@ public class Comment {
   public static Comment of(String value) {
       return  new Comment(value);
 
+  }
+
+  public Boolean isEmpty() {
+    return Objects.isNull(value);
   }
 
 }
