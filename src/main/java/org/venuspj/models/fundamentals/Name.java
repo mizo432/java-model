@@ -2,7 +2,7 @@ package org.venuspj.models.fundamentals;
 
 public class Name {
 
-	protected String value;
+	private String value;
 
 	/**
 	 * コンストラクター.

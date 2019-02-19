@@ -1,7 +1,7 @@
 package org.venuspj.models.fundamentals;
 
 public class Comment {
-  protected String value;
+  private String value;
 
   /**
    * コンストラクター.
